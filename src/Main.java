@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
 
         int ticketPrice = 1000;
-        boolean ticketPaid = true;
+        if (ticketPrice > 0);
 
-        int bonus = ticketPaid ? 20 : 0;
+        int bonus = 20;
 
         int bonusMiles = ticketPrice / bonus;
 
